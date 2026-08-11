@@ -1,0 +1,6 @@
+{
+  "name": "Skill99",
+  "description": "Skill99 - Premium EdTech and Career Development Platform",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
