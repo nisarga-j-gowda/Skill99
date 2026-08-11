@@ -1,76 +1,73 @@
 <p align="center">
-  <a href="https://tailwindcss.com" target="_blank">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tailwindlabs/tailwindcss/HEAD/.github/logo-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tailwindlabs/tailwindcss/HEAD/.github/logo-light.svg">
-      <img alt="Tailwind CSS" src="https://raw.githubusercontent.com/tailwindlabs/tailwindcss/HEAD/.github/logo-light.svg" width="350" height="70" style="max-width: 100%;">
-    </picture>
+  <a href="https://github.com/lucide-icons/lucide">
+    <img src="https://lucide.dev/package-logos/lucide-react.svg" alt="Lucide icon library for React applications." width="540">
   </a>
 </p>
 
 <p align="center">
-  A utility-first CSS framework for rapidly building custom user interfaces.
+Lucide icon library for React applications.
 </p>
+
+<div align="center">
+
+  [![npm](https://img.shields.io/npm/v/lucide-react?color=blue)](https://www.npmjs.com/package/lucide-react)
+  ![NPM Downloads](https://img.shields.io/npm/dw/lucide-react)
+  [![GitHub](https://img.shields.io/github/license/lucide-icons/lucide)](https://lucide.dev/license)
+</div>
 
 <p align="center">
-    <a href="https://github.com/tailwindlabs/tailwindcss/actions"><img src="https://img.shields.io/github/actions/workflow/status/tailwindlabs/tailwindcss/ci.yml?branch=main" alt="Build Status"></a>
-    <a href="https://www.npmjs.com/package/tailwindcss"><img src="https://img.shields.io/npm/dt/tailwindcss.svg" alt="Total Downloads"></a>
-    <a href="https://github.com/tailwindlabs/tailwindcss/releases"><img src="https://img.shields.io/npm/v/tailwindcss.svg" alt="Latest Release"></a>
-    <a href="https://github.com/tailwindlabs/tailwindcss/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/tailwindcss.svg" alt="License"></a>
+  <a href="https://lucide.dev/guide/">About</a>
+  ·
+  <a href="https://lucide.dev/icons/">Icons</a>
+  ·
+  <a href="https://lucide.dev/guide/packages/lucide-react">Documentation</a>
+  ·
+  <a href="https://lucide.dev/license">License</a>
 </p>
 
----
+# Lucide React
+
+Implementation of the lucide icon library for React applications.
+
+## Installation
+
+```sh
+pnpm add lucide-react
+```
+
+```sh
+npm install lucide-react
+```
+
+```sh
+yarn add lucide-react
+```
+
+```sh
+bun add lucide-react
+```
 
 ## Documentation
 
-For full documentation, visit [tailwindcss.com](https://tailwindcss.com).
+For full documentation, visit [lucide.dev](https://lucide.dev/guide/packages/lucide-react)
 
 ## Community
 
-For help, discussion about best practices, or feature ideas:
+Join the [Discord server](https://discord.gg/EH6nSts) to chat with the maintainers and other users.
 
-[Discuss Tailwind CSS on GitHub](https://github.com/tailwindlabs/tailwindcss/discussions)
+## License
 
-## Contributing
+Lucide is licensed under the ISC license. See [LICENSE](https://lucide.dev/license).
 
-If you're interested in contributing to Tailwind CSS, please read our [contributing docs](https://github.com/tailwindlabs/tailwindcss/blob/main/.github/CONTRIBUTING.md) **before submitting a pull request**.
+## Sponsors
 
----
+<a href="https://vercel.com?utm_source=lucide&utm_campaign=oss">
+  <img src="https://lucide.dev/vercel.svg" alt="Powered by Vercel" width="200" />
+</a>
 
-## `@tailwindcss/vite` plugin API
+<a href="https://www.digitalocean.com/?refcode=b0877a2caebd&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://lucide.dev/digitalocean.svg" width="200" alt="DigitalOcean Referral Badge" /></a>
 
-### Enabling or disabling Lightning CSS
+### Awesome backers 🍺
 
-By default, this plugin detects whether or not the CSS is being built for production by checking the `NODE_ENV` environment variable. When building for production Lightning CSS will be enabled otherwise it is disabled.
-
-If you want to always enable or disable Lightning CSS the `optimize` option may be used:
-
-```js
-import tailwindcss from '@tailwindcss/vite'
-import { defineConfig } from 'vite'
-
-export default defineConfig({
-  plugins: [
-    tailwindcss({
-      // Disable Lightning CSS optimization
-      optimize: false,
-    }),
-  ],
-})
-```
-
-It's also possible to keep Lightning CSS enabled but disable minification:
-
-```js
-import tailwindcss from '@tailwindcss/vite'
-import { defineConfig } from 'vite'
-
-export default defineConfig({
-  plugins: [
-    tailwindcss({
-      // Enable Lightning CSS but disable minification
-      optimize: { minify: false },
-    }),
-  ],
-})
-```
+<a href="https://www.scipress.io?utm_source=lucide"><img src="https://lucide.dev/sponsors/scipress.svg" width="180" alt="Scipress sponsor badge" /></a>
+<a href="https://github.com/pdfme/pdfme"><img src="https://lucide.dev/sponsors/pdfme.svg" width="180" alt="pdfme sponsor badge" /></a>
